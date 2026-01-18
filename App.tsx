@@ -401,7 +401,7 @@ const App: React.FC = () => {
                 period: '/mo',
                 focus: 'Awareness',
                 volume: '5,000 Emails/mo',
-                features: ['3 Domains, 15 Mailboxes', 'Apollo, ZoomInfo, Crunchbase database', 'A/B Testing', 'Min. Sales Conversions: 1-3'],
+                features: ['3 Domains, 15 Mailboxes', 'Apollo, ZoomInfo, Crunchbase database', 'A/B Testing', 'Expected booked meetings: 5-6'],
                 color: 'slate' 
               },
               { 
@@ -410,7 +410,7 @@ const App: React.FC = () => {
                 period: '/mo',
                 focus: 'Active Buyers',
                 volume: '3,000 Emails/mo',
-                features: ['Daily 100-200 ICP Contacts', 'Intent Database Workflow', 'Buyer Readiness Filtering', 'Min. Sales Conversions: 2-5'],
+                features: ['Daily 100-200 ICP Contacts', 'Intent Database Workflow', 'Buyer Readiness Filtering', 'Expected booked meetings: 5-10'],
                 color: 'blue',
                 popular: true
               },
@@ -420,7 +420,7 @@ const App: React.FC = () => {
                 period: '/mo',
                 focus: 'Precision',
                 volume: '5,000 Emails/mo',
-                features: ['AI-Powered Personalization', 'n8n/Make Automation', 'Deep Data Enrichment', 'Min. Sales Conversions: 4-10'],
+                features: ['AI-Powered Personalization', 'n8n/Make Automation', 'Deep Data Enrichment', 'Expected booked meetings: 8-15'],
                 color: 'cyan' 
               },
             ].map((plan, i) => {
@@ -464,7 +464,8 @@ const App: React.FC = () => {
                   </div>
                   
                   <button 
-                    onClick={() => handlePurchase(i)}
+                    // onClick={() => handlePurchase(i)}
+                    onClick={() => window.open('https://calendar.app.google/736YtMEKYttwxpb9A', '_blank')}
                     disabled={purchasingIndex !== null}
                     className={`w-full py-4 rounded-xl text-sm font-bold transition-all duration-300
                       ${isPurchased 
@@ -490,12 +491,13 @@ const App: React.FC = () => {
                  <h3 className="text-xl font-bold text-white flex items-center gap-2"><Linkedin className="text-blue-400" /> LinkedIn DM Outreach Add-on</h3>
                  <p className="text-slate-400 text-sm mt-2">Generate high-quality conversations via a second touch. Requires client-provided aged profiles.</p>
                  <div className="flex gap-4 mt-4 text-sm text-slate-500">
-                    <span>• 170-200 Req/Week</span>
+                    <span>• 190-200 Req/Week</span>
                     <span>• 10-15% Reply Rate</span>
                  </div>
               </div>
               <div className="text-right">
-                 <div className="text-2xl font-bold text-white">$180 <span className="text-sm font-normal text-slate-500">/profile/mo</span></div>
+                 <div className="text-2xl font-bold text-white">$200 <span className="text-sm font-normal text-slate-500">/profile</span></div>
+                 <span className="text-sm ml-2 font-normal text-slate-500">for first 2 months</span>
                  <button className="mt-2 text-blue-400 text-sm hover:text-blue-300 font-medium">Contact for Setup</button>
               </div>
           </div>
@@ -517,8 +519,8 @@ const App: React.FC = () => {
           </div>
           
           <div className="flex gap-8">
-            <a href="#" className="text-slate-400 hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors"><Mail className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/company/business-lead-generation-service/" className="text-slate-400 hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
+            <a href="mailto:rohit@business-lead-generation-service.com" className="text-slate-400 hover:text-white transition-colors"><Mail className="w-5 h-5" /></a>
             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Shield className="w-5 h-5" /></a>
           </div>
         </div>

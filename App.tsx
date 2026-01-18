@@ -412,7 +412,6 @@ const App: React.FC = () => {
                 volume: '3,000 Emails/mo',
                 features: ['Daily 100-200 ICP Contacts', 'Intent Database Workflow', 'Buyer Readiness Filtering', 'Expected booked meetings: 5-10'],
                 color: 'blue',
-                popular: true
               },
               { 
                 name: 'Plan C: Agentic AI', 
@@ -421,7 +420,8 @@ const App: React.FC = () => {
                 focus: 'Precision',
                 volume: '5,000 Emails/mo',
                 features: ['AI-Powered Personalization', 'n8n/Make Automation', 'Deep Data Enrichment', 'Expected booked meetings: 8-15'],
-                color: 'cyan' 
+                color: 'cyan', 
+                popular: true
               },
             ].map((plan, i) => {
               const isPurchasing = purchasingIndex === i;

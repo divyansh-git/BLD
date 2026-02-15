@@ -1,0 +1,8 @@
+module.exports=[35250,a=>{a.v({className:"space_grotesk_9c5f878-module__5TtZbW__className"})},72123,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(11857);a.n(d("[project]/node_modules/next/dist/client/script.js <module evaluation>"))},44536,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(11857);a.n(d("[project]/node_modules/next/dist/client/script.js"))},11153,a=>{"use strict";a.i(72123);var b=a.i(44536);a.n(b)},71618,(a,b,c)=>{b.exports=a.r(11153)},33290,a=>{"use strict";var b=a.i(7997),c=a.i(35250);let d={className:c.default.className,style:{fontFamily:"'Space Grotesk', 'Space Grotesk Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable);var e=a.i(71618);function f({children:a}){return(0,b.jsxs)("html",{lang:"en",className:d.className,children:[(0,b.jsxs)("head",{children:[(0,b.jsx)(e.default,{src:"https://www.googletagmanager.com/gtag/js?id=G-VS98ZX5Q5Z",strategy:"afterInteractive"}),(0,b.jsx)(e.default,{id:"google-analytics",strategy:"afterInteractive",children:`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VS98ZX5Q5Z');
+          `})]}),(0,b.jsx)("body",{className:"antialiased bg-slate-950 text-white",children:a})]})}a.s(["default",()=>f,"metadata",0,{title:"Business Lead Generation Services | LinkedIn & Email Outreach",description:"Precision B2B lead generation booking qualified appointments for SaaS, Tech, and Manufacturing. Specialized LinkedIn & Email campaigns with proven ROI."}],33290)}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__3d764e70._.js.map

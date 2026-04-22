@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 1000px;
+  }
+}
+
+.gpu-accelerate {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
